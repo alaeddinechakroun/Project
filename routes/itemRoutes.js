@@ -15,6 +15,6 @@ router.get("/get-item", getItemController);
 router.post("/add-item", addItemController);
 
 //method - PUT
-router.put("/edit-item", editItemController);
+router.put("/edit-item/:id", editItemController);
 
 module.exports = router;
